@@ -18,7 +18,7 @@ public class Week1Homework {
         double y=unitCharge*2*weekendTime;
         double z=unitCharge*2*(totalTime-40);
         double totalSalary=0;
-        if(baseSalary<=999)
+        if(baseSalary<1000)
         {
             System.out.println("You entered the base salary less than 1000 euros");
         }
